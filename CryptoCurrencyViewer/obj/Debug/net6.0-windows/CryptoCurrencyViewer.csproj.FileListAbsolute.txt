@@ -8,3 +8,5 @@ C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewe
 C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.AssemblyInfoInputs.cache
 C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.AssemblyInfo.cs
 C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoInfoWindow.baml
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoInfoWindow.g.cs

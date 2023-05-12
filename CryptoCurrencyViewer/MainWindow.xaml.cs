@@ -54,6 +54,36 @@ namespace CryptoCurrencyViewer
             }
         }
 
+        private void CryptoInfoButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (cryptoListView.SelectedItem != null)
+            {
+                Data selectedData = (Data)cryptoListView.SelectedItem;
+                Data selectedCrypto = new Data
+                {
+                    Id = selectedData.Id,
+                    Rank = selectedData.Rank,
+                    Symbol = selectedData.Symbol,
+                    Name = selectedData.Name,
+                    Supply = selectedData.Supply,
+                    MaxSupply = selectedData.MaxSupply,
+                    MarketCap = selectedData.MarketCap,
+                    VolumeUsd24Hr = selectedData.VolumeUsd24Hr,
+                    Price = selectedData.Price,
+                    ChangePercent = selectedData.ChangePercent,
+                    Vwap24Hr = selectedData.Vwap24Hr,
+                    Explorer = selectedData.Explorer
+                };
+                CryptoInfoWindow cryptoInfoWindow = new CryptoInfoWindow(selectedCrypto);
+                cryptoInfoWindow.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Please select a cryptocurrency from the list.");
+            }
+        }
+
 
     }
 }
