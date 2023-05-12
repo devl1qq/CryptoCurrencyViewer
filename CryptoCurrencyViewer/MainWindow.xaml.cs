@@ -1,6 +1,8 @@
-﻿using System;
+﻿using CryptoSearchData;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -12,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Newtonsoft.Json;
 
 namespace CryptoCurrencyViewer
 {
@@ -20,9 +23,37 @@ namespace CryptoCurrencyViewer
     /// </summary>
     public partial class MainWindow : Window
     {
+        private const string API_URL_GET = "https://api.coincap.io/v2/assets?limit=10";
         public MainWindow()
         {
             InitializeComponent();
+            LoadDataAsync();
         }
+        private async void LoadDataAsync()
+        {
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    var response = await client.GetAsync(API_URL_GET);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var json = await response.Content.ReadAsStringAsync();
+                        var data = CryptoData.FromJson(json);
+                        cryptoListView.ItemsSource = data;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Failed to retrieve data from API.");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}");
+            }
+        }
+
+
     }
 }
