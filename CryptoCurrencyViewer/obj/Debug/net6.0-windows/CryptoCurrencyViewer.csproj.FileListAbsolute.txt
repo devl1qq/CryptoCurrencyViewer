@@ -1,0 +1,10 @@
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.csproj.AssemblyReference.cache
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer_MarkupCompile.cache
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.g.resources
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.AssemblyInfoInputs.cache
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.AssemblyInfo.cs
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.csproj.CoreCompileInputs.cache
