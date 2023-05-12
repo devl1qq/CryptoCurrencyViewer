@@ -5,8 +5,6 @@
     using System.Globalization;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
-    using System.Linq;
-    using System.Text;
 
     public class CryptoData
     {

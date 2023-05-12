@@ -15,7 +15,11 @@ namespace CryptoCurrencyViewer
         public CryptoInfoWindow(Data crypto)
         {
             InitializeComponent();
+            LoadDataAsync(crypto);           
+        }
 
+        private void LoadDataAsync(Data crypto)
+        {
             nameLabel.Content = crypto.Name;
             rankLabel.Content = $"Rank: {crypto.Rank}";
             priceLabel.Content = $"Price: {crypto.Price:C2}$";
