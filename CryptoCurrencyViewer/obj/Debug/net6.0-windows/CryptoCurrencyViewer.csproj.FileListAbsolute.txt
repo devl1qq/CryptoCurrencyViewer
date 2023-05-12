@@ -10,3 +10,15 @@ C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewe
 C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.csproj.CoreCompileInputs.cache
 C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoInfoWindow.baml
 C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoInfoWindow.g.cs
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\bin\Debug\net6.0-windows\CryptoCurrencyViewer.exe
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\bin\Debug\net6.0-windows\CryptoCurrencyViewer.deps.json
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\bin\Debug\net6.0-windows\CryptoCurrencyViewer.runtimeconfig.json
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\bin\Debug\net6.0-windows\CryptoCurrencyViewer.dll
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\bin\Debug\net6.0-windows\CryptoCurrencyViewer.pdb
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.csproj.CopyComplete
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.dll
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\refint\CryptoCurrencyViewer.dll
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.pdb
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\CryptoCurrencyViewer.genruntimeconfig.cache
+C:\Users\Ivan\OneDrive\Рабочий стол\Folders\Tasks\CryptoCurrencyViewer\CryptoCurrencyViewer\obj\Debug\net6.0-windows\ref\CryptoCurrencyViewer.dll

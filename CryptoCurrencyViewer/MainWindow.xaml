@@ -15,7 +15,7 @@
             </LinearGradientBrush>
         </Grid.Background>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,10">
-            <Image Source="Images\CryptoIcon.png" Width="40" Height="40" Margin="0,0,10,0"/>
+            <Image Source="Images\cryptoicon.png" Width="40" Height="40" Margin="0,0,10,0"/>
             <Label Content="CryptoCurrencies" FontSize="24" FontWeight="Bold" VerticalAlignment="Center"/>
         </StackPanel>
         <TextBox Grid.Row="0" Name="searchTextBox" Margin="267,28,10,10" Height="30" VerticalContentAlignment="Center" Padding="5"/>

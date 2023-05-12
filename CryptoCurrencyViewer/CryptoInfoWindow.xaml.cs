@@ -22,7 +22,6 @@ namespace CryptoCurrencyViewer
             marketCapLabel.Content = $"Market Cap: {crypto.MarketCap:C2}$";
             changePercentLabel.Content = $"Change % (24h): {crypto.ChangePercent:F2}%";
             supplyLabel.Content = $"{crypto.Supply:F2}$";
-            maxSupplyLabel.Content = $"{crypto.MaxSupply:F2}$";
             volumeUsd24HrLabel.Content = $"{crypto.VolumeUsd24Hr:C2}$";
 
             var explorerLink = new Hyperlink();

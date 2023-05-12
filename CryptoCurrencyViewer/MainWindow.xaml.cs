@@ -83,6 +83,29 @@ namespace CryptoCurrencyViewer
                 MessageBox.Show("Please select a cryptocurrency from the list.");
             }
         }
+        async void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                string searchTerm = searchTextBox.Text.ToLower();
+                using var client = new HttpClient();
+                var response = await client.GetAsync($"https://api.coincap.io/v2/assets/{searchTerm}");
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                    var searchedData = JsonConvert.DeserializeObject<SearchedData>(json);
+                    cryptoListView.ItemsSource = new List<Data> { searchedData.Data };
+                }
+                else
+                {
+                    MessageBox.Show("There is not any cryptocurrency named like that");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}");
+            }
+        }
 
 
     }
